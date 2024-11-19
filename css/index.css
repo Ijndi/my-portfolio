@@ -207,7 +207,9 @@ header{
 .nav-open .hamburger::after{
     opacity: 0;
 }
-
+.nav-open .nav__link{
+    color: var(--clr-light);
+}
 .hamburger{
     display: block;
     position: relative;
