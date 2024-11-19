@@ -114,6 +114,7 @@ h3{font-size: var(--fs-h3);}
 }
 .section__title--intro strong{
     display: block;
+    font-weight: var(--fw-bold);
 }
 .section__subtitle{
     margin: 0;
@@ -242,6 +243,7 @@ header{
 }
 .intro__img{
     box-shadow: var(--bs);
+
 }
 
 @media (min-width:600px){
@@ -258,6 +260,7 @@ header{
         grid-area: img;
         min-width: 250px;
         z-index: 2;
+        left: -50px;
 
     }
     .section__title--intro{
@@ -267,7 +270,7 @@ header{
         grid-column: -1/1;
         grid-row: 2;
         text-align: right;
-        width: calc(100% + 1.5em);
+        width: calc(100% + 3.5em);
     }
     .section__subtitle--business{
         position: relative;
@@ -358,7 +361,7 @@ header{
         display: flex;
         max-width: 1200px;
         margin-left: auto;
-        margin-left: auto;
+        margin-right: auto;
     }
 
     .service + .service{
@@ -407,6 +410,10 @@ header{
     text-align: left;
 }
 
+.section__subtitle--portfolio{
+    font-weight: var(--fw-reg);
+    color: var(--clr-accent);
+}
 .btn-portfolio{
     margin-top: 2em;
 
